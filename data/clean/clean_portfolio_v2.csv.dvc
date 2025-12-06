@@ -1,0 +1,5 @@
+outs:
+- md5: ea8e505da725f54119d250cd52ea28a1
+  size: 562076138
+  hash: md5
+  path: clean_portfolio_v2.csv
