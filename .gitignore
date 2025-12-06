@@ -3,12 +3,19 @@ __pycache__/
 *.pyc
 .venv/
 
-# Ignore data and checkpoints
-data/
-*.csv
+# Ignore data folder except DVC metadata
+data/**
+!data/**/*.dvc
+!data/*.dvc
+
+# DVC cache
+/.dvc/cache/
+
+# Misc
 *.txt
 .ipynb_checkpoints/
-
-# OS-specific
 .DS_Store
 .env
+
+# Allow root-level .dvc files
+!*.dvc
