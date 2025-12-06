@@ -1,0 +1,14 @@
+# Ignore Python cache and venv
+__pycache__/
+*.pyc
+.venv/
+
+# Ignore data and checkpoints
+data/
+*.csv
+*.txt
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+.env
